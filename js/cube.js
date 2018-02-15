@@ -18,7 +18,7 @@ controls.enablePan = false; //stops you from being able to change position of ca
 var geom = new THREE.CubeGeometry(5, 5, 5);
 var mat = new THREE.MeshBasicMaterial({
     color: 0x54FF9F, //seagreen
-    wireframe: false
+    wireframe: true
 })
 var cube = new THREE.Mesh(geom, mat);
 scene.add(cube);
